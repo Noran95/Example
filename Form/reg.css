@@ -1,0 +1,44 @@
+ body{
+    font-family: tahoma, arial; 
+ }
+ h1{
+     color: lightseagreen;
+     
+ }
+ div {
+    width: 565px;
+    height: 570px ;
+    margin: 50px 200px;
+    padding: 3px;
+    border : 2px solid rgb(233, 230, 230);
+    background-color: rgb(233, 230, 230);
+    background-clip: content-box;
+}
+form {
+    margin: 30px;
+}
+label {
+font-size: 20px;
+
+}
+input {
+width: 445px;
+height: 45px;
+padding: 0 10px;
+border:  1px  solid #fff;
+background-color: #fff;
+border-radius: 5px;
+font-size: 16px;
+}
+sup{
+    color: #f00;
+}
+ div form input[type="submit"] {
+     width: 475px;
+     background-color: lightseagreen;
+     border:  1px  solid lightseagreen;
+     color: #fff ;
+     font-size: 20px;
+    
+
+}

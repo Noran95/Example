@@ -1,0 +1,176 @@
+
+*{
+    box-sizing: content-box;
+    font-family: arial,tahoma;
+}
+
+
+nav{
+    height: 45px;
+    margin: 30px 10px 0 ;
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 10px;
+}
+nav span {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 700px -5px 1px;
+   
+    }
+nav ul {
+    list-style: none;
+    margin-top: -8px ;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li::after {
+    content: "  /";
+}
+main {
+    height: 110px;
+    margin: 0 10px 0 10px;
+   padding: 10px;
+   text-align: center;
+    background-color:#e5f7c4;
+}
+main span {
+    font-size: 20px;
+    font-weight: bold;
+}
+main p{
+    font-size: 14px;
+}
+
+
+.all {
+    width: 1000px;
+    height: 185px;
+    margin: auto;
+   
+   
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 185px;
+
+}
+.all div  {
+    width: 250px;
+    height: 120px;
+   margin: 30px 45px 30px 5px;
+    padding: 5px;
+    float: left;
+    text-align: center;
+    
+}
+.all div p{
+    opacity: 0.6;
+}
+.about {
+
+    margin: auto;
+    padding: 30px;
+    /*margin: 0 10px 0 10px;*/
+    background-color: #e5f7c4;
+    text-align: center;
+    
+    
+}
+.about img{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    float: initial;
+    /*margin-left: 600px ;*/
+   
+}
+  
+.about p {
+    width:210px ;
+    height: 100px;
+    margin:10 0 10 ;
+   margin-left: -350px;
+   margin-right: 300px;
+   opacity: 0.7;
+   line-height: 25px;
+   text-align: left;
+   float:right;
+    
+}
+.about span {
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 1;
+    }
+
+.aaa{
+    width:625px;
+    height: 178px;
+    
+    margin: auto;
+    text-align: center;
+}
+.aaa p {
+width: 160px;
+height: 55px;
+
+margin: 50px 14px 5px;
+margin-top: 50px;
+text-align: center;
+padding: 10px ;
+float: left;
+color: #fff;
+}
+.aaa span{
+    font-size: 32px;
+font-weight: bold;
+
+}
+.aaa .a{
+    background-color: brown;
+}
+.aaa .b{
+    background-color: rgb(100, 150, 0);
+}
+.aaa .c{
+    background-color: midnightblue;;
+}
+.prog {
+   
+    background-color: #e5f7c4;
+    margin: 0 10px;
+
+    text-align: center;
+}
+h2{
+    padding: 30px 10px 0px;
+}
+
+.prog div {
+    display: inline-block;
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    
+    
+}
+.prog div p{
+    line-height: 29px;
+} 
+.prog progress {
+width: 500px;
+height: 25px ;
+background-color: midnightblue;
+}
+footer{
+    background-color: rgb(42, 126, 3);
+    color: #ddd;
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px;
+}
